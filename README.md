@@ -1,29 +1,34 @@
+# prioritrack
 
-# PrioriTrack
+An Electron application with React and TypeScript
 
+## Recommended IDE Setup
 
-## Run Locally
+- [VSCode](https://code.visualstudio.com/) + [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) + [Prettier](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
 
-Clone the project
+## Project Setup
+
+### Install
 
 ```bash
-  git clone https://github.com/orayanics/prioritrack.git
+$ npm install
 ```
 
-Go to the project directory
+### Development
 
 ```bash
-  cd prioritrack
+$ npm run dev
 ```
 
-Install dependencies
+### Build
 
 ```bash
-  npm install
-```
+# For windows
+$ npm run build:win
 
-Start the server
+# For macOS
+$ npm run build:mac
 
-```bash
-  npm run start
+# For Linux
+$ npm run build:linux
 ```
