@@ -8,6 +8,18 @@ An Electron application with React and TypeScript
 
 ## Project Setup
 
+### Clone the project
+
+```bash
+$ git clone https://github.com/orayanics/prioritrack.git
+```
+
+### Go to the project directory
+
+```bash
+$ cd prioritrack
+```
+
 ### Install
 
 ```bash
@@ -19,7 +31,9 @@ $ npm install
 ```bash
 $ npm run dev
 ```
-
+```bash
+$ npm run start
+```
 ### Build
 
 ```bash
