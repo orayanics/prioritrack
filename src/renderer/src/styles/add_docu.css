@@ -3,7 +3,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-  
+
     font-family:
       Roboto,
       -apple-system,
@@ -22,14 +22,14 @@ body {
     width: 500px;
     height: 450px;
     text-align: center;
-  
+
     border-radius: 20px;
     margin-top: 50px;
   }
   .title {
     color: #00042c;
     font-size: 22px;
-  
+
     padding-top: 40px;
     padding-bottom: 20px;
   }
@@ -37,7 +37,7 @@ body {
     padding: 0;
     margin: 0;
     margin-bottom: 10px;
-  
+
     border-style: none;
     border-radius: 5px;
     width: 85%;
@@ -46,7 +46,7 @@ body {
   .input_title {
     padding-left: 40px;
     padding-bottom: 3px;
-  
+
     text-align: left;
     font-size: 15px;
   }
@@ -54,7 +54,7 @@ body {
     border-radius: 15px;
     color: white;
     font-weight: bold;
-  
+
     width: 160px;
     height: 30px;
     border-style: none;
@@ -77,6 +77,5 @@ body {
   }
   select {
     border: none;
-    
+
   }
-    
