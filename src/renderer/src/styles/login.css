@@ -1,13 +1,29 @@
 body {
-  background-color: #00042c;
-  margin: 0;
   font-family: Arial, sans-serif;
   display: flex;
   align-items: center;
-  justify-content: flex-end;
+  justify-content: center;
   height: 100vh;
+
+  background-image: url('../assets/bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  opacity: 1;
+  z-index: -1;
 }
 
+.login {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #00042c;
+}
+
+form {
+  color: #00042c;
+}
 .forgot-password {
   color: #575757;
   margin-top: 16px;
@@ -24,12 +40,14 @@ body {
   max-width: 100%; /* Ensure the logo is responsive */
   height: 400px;
   margin-right: 20px;
+  z-index: 1;
 }
 
 .card-container {
   display: flex;
   justify-content: flex-end; /* Align to the right */
   margin-right: 150px;
+  z-index: 1;
 }
 
 .card {
@@ -40,6 +58,7 @@ body {
   border-radius: 20px;
   width: 300px;
   text-align: left;
+  height: fit-content;
 }
 
 h2 {
