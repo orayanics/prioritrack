@@ -15,7 +15,7 @@ function ForgotPass(): JSX.Element {
             <label htmlFor="q2">2. What is the name of your dog?</label>
             <input type="text" id="" name="" required />
 
-            <label htmlFor="q3">3. What is your mothernrs maiden name?</label>
+            <label htmlFor="q3">3. What is your mothers maiden name?</label>
             <input type="text" id="" name="" required />
 
             <div className="button-container">
