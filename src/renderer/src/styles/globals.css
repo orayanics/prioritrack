@@ -11,3 +11,7 @@
   --crud-blue: #c2d2e4;
   --crud-fc: #00042c;
 }
+body {
+  background-color: white !important;
+  color: black !important;
+}
