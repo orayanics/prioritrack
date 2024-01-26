@@ -1,9 +1,5 @@
 body {
   font-family: Arial, sans-serif;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100vh;
 
   background-image: url('../assets/bg.png');
   background-size: cover;
@@ -12,6 +8,12 @@ body {
 
   opacity: 1;
   z-index: -1;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
 }
 
 .card-container {

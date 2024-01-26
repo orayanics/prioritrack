@@ -4,7 +4,7 @@ import Navbar from '@renderer/components/navbar'
 function Clients(): JSX.Element {
   return (
     <div>
-      <Navbar />
+      {/* <Navbar /> */}
       <div className="container">
         <div className="column1">
           <button className="button">Add a Client</button>

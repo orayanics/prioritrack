@@ -1,9 +1,4 @@
 body {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-
   font-family:
     Roboto,
     -apple-system,
@@ -15,6 +10,13 @@ body {
     'Cantarell',
     'Open Sans',
     sans-serif;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5rem;
 }
 .card {
   background-color: var(--crud-blue);
