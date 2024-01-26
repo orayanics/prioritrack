@@ -1,10 +1,9 @@
 import '../styles/manage_docs.css'
-import Navbar from '@renderer/components/navbar'
+// import Navbar from '@renderer/components/navbar'
 
-function Clients(): JSX.Element {
+function MDocuments(): JSX.Element {
   return (
     <div>
-      <Navbar />
       <div className="container">
         <div className="col-1">
           <button className="button">Add a Document</button>
@@ -46,4 +45,4 @@ function Clients(): JSX.Element {
   )
 }
 
-export default Clients
+export default MDocuments

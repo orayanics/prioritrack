@@ -1,7 +1,7 @@
 .container {
   display: flex;
   justify-content: center;
-  margin: 5rem;
+  flex-direction: row;
 }
 
 .col-1,
