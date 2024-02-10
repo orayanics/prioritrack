@@ -15,11 +15,13 @@ function AddClient(): JSX.Element {
           <h3 className="input_title">Client Bank Address</h3>
           <input className="input" name="query" />
         </form>
+
         <div className="btn2">
           <button className="btn submit" type="submit">
             Submit
           </button>
           <button className="btn cancel ">Cancel</button>
+          {/* btn2 */}
         </div>
       </div>
     </div>

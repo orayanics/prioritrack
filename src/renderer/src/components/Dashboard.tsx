@@ -1,10 +1,16 @@
-// import React from 'react'
+import React, { useEffect } from 'react'
+import { Link } from 'react-router-dom'
 
+import AddClient from './add_client'
+
+// import React from 'react'
 function Dashboard(): JSX.Element {
   return (
     <div className="container">
       <div className="column1">
-        <button className="button">Export Data</button>
+        <button className="button">
+          <Link to={`/AddClient`}>Export Data</Link>
+        </button>
         <button className="button">Reports</button>
       </div>
       <div className="column1">
